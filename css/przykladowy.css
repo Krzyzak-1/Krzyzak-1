@@ -1,0 +1,12 @@
+
+.bookmark
+{
+    background-image: url("/picture/9.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+   font-size: 30px;
+    text-align: center;
+    padding: 8vw 5vw;
+ 
+}

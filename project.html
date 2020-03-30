@@ -5,7 +5,8 @@
         <title>Moduł 6</title>
         <meta name="viewport" content="Moduł 6 CSS ciag  dalszy"/>
         <meta name="keywords" content="Moduł 6"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
         <link
             href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext"
             rel="stylesheet">
@@ -13,78 +14,101 @@
         <link href="css/sectionexplore.css" rel="stylesheet">
         <link href="css/container.css" rel="stylesheet">
         <link href="css/main-navigation.css" rel="stylesheet">
+        <link href="css/bookmark.css" rel="stylesheet">
+       
 
     </head>
     <body>
         <nav class="main__navigation">
             <div class="main__navigation--inner">
+
                 <div class="main__navigation--logo">
+
                     <a href="#" class="main__navigation--logolink">
-                        <img src="picture/logo.png" alt="logo" class="main__navigation_logo--image">
-                        Skalnik
+
+                        <img src="icons/logo.svg" alt="logo" class="main__navigation_logo--image">
+
+                        Skalnik <span class="main__navigation_logo--span">945 m n.p.m</span>
                     </a>
                 </div>
-                    <ul class="main__navigation--menu">
-                        <li class="main__navigation--item">
-                            <a href="#" class="main__navigation--link">Home</a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="information" class="main__navigation--link">Informacje</a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="localization" class="main__navigation--link">Lokalizacja</a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="gallery" class="main__navigation--link">Galeria</a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="szlaki" class="main__navigation--link">Szlaki</a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="map" class="main__navigation--link">Mapa</a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="#" target="_blank" class="main__navigation--link"><img src="icons/social/instagram.svg" alt="Instagram" class="main__navigation--social_icon"></a>
-                        </li>
-                        <li class="main__navigation--item">
-                            <a href="#" target="_blank" class="main__navigation--link"><img src="icons/social/facebook.svg" alt="facebook" class="main__navigation--social_icon"></a>
-                        </li>
-                    </ul>
+
+                <ul class="main__navigation--menu js-main__navigation--menu">
+                    
+                    <li class="main__navigation--item">
+                        <a href="#" class="main__navigation--link">Home</a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="#explore" class="main__navigation--link">Informacje</a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="localization" class="main__navigation--link">Lokalizacja</a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="gallery" class="main__navigation--link">Galeria</a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="szlaki" class="main__navigation--link">Szlaki</a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="map" class="main__navigation--link">Mapa</a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="#" target="_blank" class="main__navigation--link"><img
+                            src="icons/social/instagram.svg"
+                            alt="Instagram"
+                            class="main__navigation--social_icon"></a>
+                    </li>
+                    <li class="main__navigation--item">
+                        <a href="#" target="_blank" class="main__navigation--link"><img
+                            src="icons/social/facebook.svg"
+                            alt="facebook"
+                            class="main__navigation--social_icon"></a>
+                    </li>
+                </ul>
+                <button class="main__navigation_mobile--button js-main__navigation_mobile--button">
+                    <img src="icons/button/navigation.svg" alt="Otwórz / Zamknij Nawigacje" class="main__navigation_mobile--button_image">
+                </button>
             </div>
 
         </nav>
-
+        <script src="js/mainnavigation.js"></script>
+        
 
         <section class="banner">
-            <div class="banner__button--div">
-                <a class="banner__button">Poznaj to miejsce</a>
-            </div>
+      
+                <a href="#explore" class="banner__button" >Poznaj to miejsce</a>
+           
         </section>
 
-        <div class="container">
+        <div class="container" id="explore">
             <section class="section__explore">
-                
-                <div class="section__explore--text">
-                <h3 class="section__explore--h3">
-                    Poznaj to miejsce</h3>
 
-                <p class="section__explore--paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta hic quo eaque
-                    commodi voluptates, iusto dolorum nisi sit repellat voluptate. Quos maxime ut
-                    explicabo fugit recusandae eveniet. Expedita ad omnis consequuntur deleniti,
-                    consectetur iste quaerat molestias consequatur voluptas, commodi maiores ea ex,
-                    aliquid molestiae itaque nisi facere autem est? Sit animi voluptate cumque amet
-                    sequi blanditiis neque id sapiente quasi quisquam, tempore error, consectetur
-                    ducimus obcaecati earum vitae iusto, nam consequatur explicabo architecto
-                    quaerat rem. Repellendus illum doloremque eum nam tenetur aperiam magni eaque
-                    corrupti cupiditate? Nobis tempora cumque dolorem aspernatur, sequi recusandae
-                    repudiandae debitis, non perferendis ratione doloribus harum?
-                </p>
-            </div>
+                <div class="section__explore--text">
+                    <h3 class="section__explore--h3">
+                        Poznaj to miejsce</h3>
+
+                    <p class="section__explore--paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta hic quo eaque
+                        commodi voluptates, iusto dolorum nisi sit repellat voluptate. Quos maxime ut
+                        explicabo fugit recusandae eveniet. Expedita ad omnis consequuntur deleniti,
+                        consectetur iste quaerat molestias consequatur voluptas, commodi maiores ea ex,
+                        aliquid molestiae itaque nisi facere autem est? Sit animi voluptate cumque amet
+                        sequi blanditiis neque id sapiente quasi quisquam, tempore error, consectetur
+                        ducimus obcaecati earum vitae iusto, nam consequatur explicabo architecto
+                        quaerat rem. Repellendus illum doloremque eum nam tenetur aperiam magni eaque
+                        corrupti cupiditate? Nobis tempora cumque dolorem aspernatur, sequi recusandae
+                        repudiandae debitis, non perferendis ratione doloribus harum?
+                    </p>
+                </div>
                 <img class="section__explore--img" src="picture/11.jpg" alt="">
 
             </section>
+            
         </div>
 
+        <section class="bookmark bookmark__menu">
+           <h2 class="bookmark__header">Lokalizacja</h2>
+           <p class="bookmark__paragraph"> Jest podana Lokalizacja</p>
+        </section>
     </body>
 </html>

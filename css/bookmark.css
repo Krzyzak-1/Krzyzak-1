@@ -1,0 +1,47 @@
+.bookmark {
+    background-size: cover;
+    background-position: center center;
+    font-size: 30px;
+    text-align: center;
+    padding: 8vw 5vw;
+    position:relative;
+    color: white;
+    z-index: 0;
+    font-family: sans-serif;
+ 
+}
+
+.bookmark__menu
+{
+   background-image: url("/picture/2.jpg");
+}
+
+.bookmark::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.bookmark__header
+{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.bookmark__header::before,
+.bookmark__header::after{
+    content: "-";
+    font-weight: normal;
+}
+
+.bookmark__paragraph
+{
+    font-size: 24px;
+    margin: 0;
+}

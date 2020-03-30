@@ -29,6 +29,7 @@
     color: #777;
     font-size: 18px;
     text-align: justify;
+    margin: 20px 0;
 }
 @media(max-width:767px) {
     .section__explore--paragraph {
