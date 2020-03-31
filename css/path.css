@@ -1,0 +1,112 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+.path__container
+{
+    display: flex;
+    margin: 100px 0;
+    justify-content: center;
+}
+
+@media(max-width:767px){
+    .path__container
+    {
+      
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+}
+
+.path__card
+{
+    width: 280px;
+    margin-left: 50px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  
+ 
+}
+
+@media(max-width:767px){
+    .path__card
+    {
+      
+        margin: 20px 20px;
+       
+    }
+}
+
+
+
+.path__card:hover
+{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+.path__card--img
+{
+    width: 80%;
+    height: 50%;
+    
+}
+
+
+.path__container--header
+{
+ font-size: 28px;
+ text-align: center;
+ color: rgb(255, 255, 255);
+ font-weight: 700;
+ background-color: rgba(255, 255, 255, 0.185);
+ padding: 5px 30px;
+
+ box-shadow: 2px 2px 5px black;
+
+}
+
+.path__container--paragraph
+{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.card1
+{
+    background: linear-gradient(rgb(39, 219, 39), rgb(1, 102, 1));
+
+}
+
+
+.card2
+{
+background: linear-gradient(rgb(255, 255, 56), rgb(121, 121, 11));
+}
+
+
+.card3
+{
+ background: linear-gradient(rgb(65, 65, 235), rgb(21, 21, 117));
+
+}
+
+.card4
+{
+ background: linear-gradient(rgb(238, 47, 47), rgb(105, 6, 6));
+
+}

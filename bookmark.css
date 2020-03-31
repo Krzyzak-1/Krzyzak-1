@@ -21,17 +21,17 @@
 
 .bookmark__gallery
 {
-   background-image: url("picture/9.jpg");
+   background-image: url("picture/gallery/10.jpg");
 }
 
 .bookmark__path
 {
-   background-image: url("picture/9.jpg");
+   background-image: url("picture/3.jpg");
 }
 
 .bookmark__map
 {
-    background-image: url("picture/3.jpg");
+    background-image: url("picture/gallery/5.jpg");
 }
 
 .bookmark::after
@@ -53,12 +53,7 @@
    
 }
 
-@media (max-width:1199px)
-{
-    .bookmark__paragraph{
-        font-size: 16px;
-    }
-}
+
 
 
 @media (max-width:767px)
@@ -78,4 +73,11 @@
 {
     font-size: 24px;
   
+}
+
+@media (max-width:1199px)
+{
+    .bookmark__paragraph{
+        font-size: 16px;
+    }
 }
