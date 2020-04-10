@@ -67,6 +67,7 @@
     margin: 0;
     padding: 5px 0;
     list-style: none;
+ 
     z-index: 2;
     transition: 0.5s;
     transition-property: opacity , transform;
@@ -87,6 +88,7 @@
         opacity: 0;
         pointer-events: none;
         transform: translateY(-50%);
+       
     }
 }
 
